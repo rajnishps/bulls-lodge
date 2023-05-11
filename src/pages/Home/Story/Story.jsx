@@ -32,7 +32,30 @@ const Story = () => {
           alt=""
         />
       </div>
-      <img className="w-3/6 ml-auto " src={bull} alt="" />
+      <div className="flex md:block ">
+        <p className="2xl:text-lg  w-3/6  md:hidden flex items-end ml-8 mr-4 ">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, ever since
+        </p>
+        <img className="w-3/6 md:w-full ml-auto " src={bull} alt="" />
+      </div>
+      <div className="block md:hidden m-8">
+        <p>
+          {" "}
+          ever since the 1500s, when an unknown printer took a galley of type
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type Lorem
+          Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum has been the industry's standard dummy text ever since the
+          1500s, when an unknown printer took a galley of type Lorem Ipsum is
+          simply dummy text of the printing and typesetting industry. Lorem
+          Ipsum has been the industry's standard dummy text ever printer took a
+          galley of type Lorem Ipsum is simply dummy text of the printing and
+          typesetting industry.
+        </p>
+      </div>
     </section>
   )
 }
