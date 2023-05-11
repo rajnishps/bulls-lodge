@@ -13,6 +13,7 @@ body {
   background: url("./assets/bg.svg");
   background-size: cover;
   color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
 }
 
 main {

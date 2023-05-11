@@ -10,10 +10,10 @@ import nft6 from "./components/nft6.png"
 const Roadmap = () => {
   return (
     <section className="mt-8">
-      <h2 className="w-full uppercase text-center font-bold my-2 text-4xl font-Oswald">
+      <h2 className="w-full uppercase text-center font-bold my-2 text-6xl font-Oswald">
         The Roadmap
       </h2>
-      <h3 className="w-full text-center font-normal font-Oswald">
+      <h3 className="w-full text-center text-3xl font-normal font-Oswald">
         Bulls are RACING!
       </h3>
       <h2 className="w-full uppercase text-center font-black my-4 text-6xl font-Oswald">
