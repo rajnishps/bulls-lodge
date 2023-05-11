@@ -2,10 +2,14 @@ import bullishTrio from "./components/bullishTrio.png"
 
 const Bullish = () => {
   return (
-    <section className=" md:m-16 flex md:flex-row flex-col-reverse justify-between md:items-end mb-64">
-      <img className="md:w-3/6 ml-auto px-12" src={bullishTrio} alt="" />
-      <div className="md:w-2/5 text-left md:px-16 m-12">
-        <h2 className="w-full uppercase  font-bold my-2 text-4xl md:text-6xl font-Oswald mb-12">
+    <section className=" md:m-16 flex md:flex-row flex-col-reverse justify-between md:items-end mb-32 md:mb-64">
+      <img
+        className="md:w-3/6 ml-auto md:px-12 px-8"
+        src={bullishTrio}
+        alt=""
+      />
+      <div className="md:w-2/5 text-left md:px-16 md:m-12 m-8">
+        <h2 className="w-full uppercase font-bold my-2 text-4xl md:text-6xl font-Oswald mb-12">
           ARE YOU BULLISH?
         </h2>
 

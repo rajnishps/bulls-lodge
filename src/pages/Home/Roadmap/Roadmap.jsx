@@ -9,7 +9,7 @@ import nft6 from "./components/nft6.png"
 
 const Roadmap = () => {
   return (
-    <section className="mt-64">
+    <section className="md:mt-64 mt-32">
       <h2 className="w-full uppercase text-center font-bold my-2 text-4xl md:text-6xl font-Oswald">
         The Roadmap
       </h2>

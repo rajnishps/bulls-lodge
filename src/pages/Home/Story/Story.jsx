@@ -3,7 +3,7 @@ import expolreBtn from "./components/exploreBtn.png"
 
 const Story = () => {
   return (
-    <section className=" md:m-16 flex md:flex-row flex-col justify-between md:items-end mb-64">
+    <section className=" md:m-16 flex md:flex-row flex-col justify-between md:items-end md:mb-64 mb-32">
       <div className="md:w-2/5 text-left md:px-16 md:m-12 m-8 mb-0">
         <h2 className="w-full uppercase  font-bold my-2 text-4xl md:text-6xl font-Oswald">
           The Story
