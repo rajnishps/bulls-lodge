@@ -2,14 +2,14 @@ import bullishTrio from "./components/bullishTrio.png"
 
 const Bullish = () => {
   return (
-    <section className=" md:m-16 flex md:flex-row flex-col justify-between md:items-end mb-64">
-      <img className="w-3/6 ml-auto " src={bullishTrio} alt="" />
+    <section className=" md:m-16 flex md:flex-row flex-col-reverse justify-between md:items-end mb-64">
+      <img className="md:w-3/6 ml-auto px-12" src={bullishTrio} alt="" />
       <div className="md:w-2/5 text-left md:px-16 m-12">
-        <h2 className="w-full uppercase  font-bold my-2 text-6xl font-Oswald mb-12">
+        <h2 className="w-full uppercase  font-bold my-2 text-4xl md:text-6xl font-Oswald mb-12">
           ARE YOU BULLISH?
         </h2>
 
-        <p className="2xl:text-lg  md:block hidden">
+        <p className="2xl:text-lg  ">
           Welcome to the Bull's Lodge NFT project, featuring a collection of
           10,000 unique, 3D Hand Drawn NFT artworks and delivering privileges in
           Metaverse and In Real Life utilities to its ever-growing community.

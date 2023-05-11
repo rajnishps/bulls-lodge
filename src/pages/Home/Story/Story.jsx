@@ -4,11 +4,11 @@ import expolreBtn from "./components/exploreBtn.png"
 const Story = () => {
   return (
     <section className=" md:m-16 flex md:flex-row flex-col justify-between md:items-end mb-64">
-      <div className="md:w-2/5 text-left md:px-16 m-12 mb-0">
-        <h2 className="w-full uppercase  font-bold my-2 text-6xl font-Oswald">
+      <div className="md:w-2/5 text-left md:px-16 md:m-12 m-8 mb-0">
+        <h2 className="w-full uppercase  font-bold my-2 text-4xl md:text-6xl font-Oswald">
           The Story
         </h2>
-        <h3 className="w-full  text-3xl font-normal font-Oswald mb-12">
+        <h3 className="w-full text-xl md:text-3xl font-normal font-Oswald mb-12">
           Bulls are RACING!
         </h3>
         <p className="2xl:text-lg  md:block hidden">
